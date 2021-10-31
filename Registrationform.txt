@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Text Input Control</title>
+   </head>
+	
+   <body>
+        <h1 style="text-align:center; color:red"> Registration Forms:</h1>
+
+          
+      <form > 
+             <label for="firstname"> FirstName   </label> 
+             
+         
+               
+            
+
+          <input type = "text" name = "firstname" id="firstname" />
+         <br>
+         <br>
+    <label for="Email"> Email  </label> 
+             
+         
+               
+            
+
+          <input type = "Email" name = "Email" id="Email" />
+   <br> 
+   <br>
+   <label for="password"> Password </label> 
+             
+         
+               
+            
+
+          <input type = "password" name = "password id="password" />
+
+          <br>
+          <br>
+
+
+
+          <label for="dob"> Date of Birth  </label> 
+             
+         
+               
+            
+
+          <input type = "date" name = "dob" id="dob" />
+          <br>
+          <br>
+
+
+
+          <label for="photo"> choose your photo: </label> 
+             
+         
+               
+            
+
+          <input type = "file" name = "photo" id="photo" />
+          <br>
+          <br>
+
+          <label for="gender"> Gender </label> 
+             
+         
+               
+            
+
+          <input type = "radio" name = "gender" id="gender"  value="male"> Male
+
+          <input type = "radio" name = "gender" id="gender"  value="male"> female
+          <br>
+          <br>
+          <label for="religion"> Religion </label> 
+             
+         
+               
+            
+
+          <input type = "checkbox" name = "c1" id="muslim"  value="muslim"> Islam
+          
+          <input type = "checkbox" name = "c1" id="hindu"  value="hindu"> Hindu
+
+          <br>
+          <br
+
+          <label for="Department"> Department: </label> 
+                   
+                   
+           <select name ="Department">
+            <option value="CSE">CSE   </option>
+              <option value="EEE">EEE  </option>
+              <option value="AIS">AIS  </option>
+                   
+                  
+      
+
+            <input type="submit" value="Register">
+             <input type="reset" value="clear">
+              
+              
+
+
+
+
+           </select>
+
+
+
+
+      </form>
+   </body>
+	
+</html>
